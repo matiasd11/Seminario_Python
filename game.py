@@ -18,7 +18,7 @@ for i in range(0, times):
 # Se imprime la cuenta.
     print(f"{i+1}- ¿Cuánto es {number_1} {operator} {number_2}?")
 # Le pedimos al usuario el resultado
-    result = int(input("resultado: "))
+    result = float(input("resultado: "))
 # Al terminar toda la cantidad de cuentas por resolver.
     match operator:
         case "+":
